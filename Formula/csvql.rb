@@ -7,18 +7,18 @@ class Csvql < Formula
   on_macos do
     on_arm do
       url "https://github.com/melihbirim/csvql/releases/download/v1.5.12/csvql-macos-aarch64.tar.gz"
-      sha256 "4afbfa8b79a43065497b237cd7aaf5e0e9770a35b5e7d1a3a83437e5d398c26f"
+      sha256 "135a4def1256adc78f6fd124f814206201ac1277da4ae6c8e01bd6aa5db7f24b"
     end
     on_intel do
       url "https://github.com/melihbirim/csvql/releases/download/v1.5.12/csvql-macos-x86_64.tar.gz"
-      sha256 "9b5a8c22126c25b92e70256b3c6885b0494ccb16f69bf11fa2ccc201f612137f"
+      sha256 "9a3494843f824e8953f1d442608b696b940b1acedacfbfe4a8523ebfd09a8eb0"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/melihbirim/csvql/releases/download/v1.5.12/csvql-linux-x86_64.tar.gz"
-      sha256 "38e4463c20d6f8dbb3c68e798d67e03ef34731bb899190d2f85aef20552e7e37"
+      sha256 "d94797cd160f0be169a9c7448179346d7a7195f71b5d93b95f8371b6d3200a17"
     end
   end
 
