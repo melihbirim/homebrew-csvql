@@ -1,24 +1,24 @@
 class Csvql < Formula
   desc "Ultra-fast SQL query engine for CSV files with SIMD parsing and parallel execution"
   homepage "https://github.com/melihbirim/csvql"
-  version "1.7.2"
+  version "1.8.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/melihbirim/csvql/releases/download/v1.7.2/csvql-macos-aarch64.tar.gz"
-      sha256 "dc8922fcd3f85f8e2ec40d5c382b8893c34e238fc315be3b02a66d37665abf58"
+      url "https://github.com/melihbirim/csvql/releases/download/v1.8.0/csvql-macos-aarch64.tar.gz"
+      sha256 "915558f6c15a805361d62bdb7db9a08c2014356e69e37e496a8aa3d80bd61e65"
     end
     on_intel do
-      url "https://github.com/melihbirim/csvql/releases/download/v1.7.2/csvql-macos-x86_64.tar.gz"
-      sha256 "f3e04832c9548368ec808ea476682f1565643fb343df1726a69ad490de2419ce"
+      url "https://github.com/melihbirim/csvql/releases/download/v1.8.0/csvql-macos-x86_64.tar.gz"
+      sha256 "5586b75223667781427dbfd7c8bf6af693c27f7d57d2f5c78dcee8662a35111b"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/melihbirim/csvql/releases/download/v1.7.2/csvql-linux-x86_64.tar.gz"
-      sha256 "0dd589b134d94d72d056a406d92ee2c5fcffe313bd75f4a23a60b367c269eaa3"
+      url "https://github.com/melihbirim/csvql/releases/download/v1.8.0/csvql-linux-x86_64.tar.gz"
+      sha256 "a679a2e387bf60d100d33dfd7931f81b360cbe7bcf96565bafa08444a5109aa9"
     end
   end
 
